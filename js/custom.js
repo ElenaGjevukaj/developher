@@ -170,7 +170,7 @@ $( "textarea#Message" ).keyup(function() {
     // $( "p" ).text( value );
   }).keyup();
 	var e_name = $("#name").attr("value");
-	var e_email = $("#name").attr("value");
+	var e_email = $("#email").attr("value");
 	var e_message = $("#Message").attr("value");
 	var mailto = 'mailto:yg@spinpagency.com';
 	var subject = 'subject=Say%20hello%20to%20us';
