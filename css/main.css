@@ -7,7 +7,7 @@ body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     line-height: 21px;
-	font-size: 13px;
+	  font-size: 13px;
     color: #6a737b;
 }
 
@@ -668,9 +668,17 @@ label.error {
 	Contact Us
 ==========================================*/
 
+.icons {
+  padding: 10px;
+}
+
+.footer_p {
+  font-size: 15px;
+  font-weight: bold;
+}
 
 .footer {
-  background-color: #1ea78d;
+  background-color: #a39fa1;
   border-top: 5px solid #062033;
   color: #fff;
 }
@@ -747,5 +755,3 @@ label.error {
   right: 25px;
   z-index: 9;
 }
-
-
