@@ -119,7 +119,7 @@ $(document).ready(function(){
 
 // ==========  START GOOGLE MAP ========== //
 function initialize() {
-    var myLatLng = new google.maps.LatLng(42.655143, 21.164849);
+    var myLatLng = new google.maps.LatLng(42.655102, 21.164865);
 
     var mapOptions = {
         zoom: 14,
@@ -149,3 +149,42 @@ function initialize() {
 
 google.maps.event.addDomListener(window, "load", initialize);
 // ========== END GOOGLE MAP ========== //
+
+/* ========================================================================= */
+/*	Contact section scripts
+/* ========================================================================= */
+
+$('.pull-right>a').click(function(){
+	$( "input#name" ).keyup(function() {
+    var name = $( this ).val();
+    $('#name').attr('value',name);
+  }).keyup();
+$( "input#email" ).keyup(function() {
+    var email = $( this ).val();
+    $('#email').attr('value',email);
+    // $( "p" ).text( value );
+  }).keyup();
+$( "textarea#Message" ).keyup(function() {
+    var message = $( this ).val();
+    $('#Message').attr('value',message);
+    // $( "p" ).text( value );
+  }).keyup();
+	var e_name = $("#name").attr("value");
+	var e_email = $("#name").attr("value");
+	var e_message = $("#Message").attr("value");
+	var mailto = 'mailto:yg@spinpagency.com';
+	var subject = 'subject=Say%20hello%20to%20us';
+	var body_of_email = 'body=Name:'+e_name+'%0AEmail:'+e_email+'%0AMessage:'+e_message;
+	var a_href = mailto+'?'+subject+'&'+body_of_email;7
+	if(e_name.length >2 && e_email.length >2 && e_message.length>2)
+	{$('button.pull-right>a').attr('href',a_href);}
+	else{
+		alert ('You must fill all fields before pressing Send.');
+	}
+});
+
+
+$(document).ready(function(){
+	var about_us_text = $('.get-text').text();
+	$('.set-text').html(about_us_text);
+})
