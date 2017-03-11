@@ -7,7 +7,7 @@ body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     line-height: 21px;
-	font-size: 13px;
+	  font-size: 13px;
     color: #6a737b;
 }
 
@@ -638,7 +638,7 @@ label.error {
 }
 
 .contact-form #form-submit {
-  background: url("../img/envelop.png") no-repeat scroll 0 15px transparent;
+  background: transparent;
   border: 0 none;
   color: #000;
   font-size: 16px;
@@ -652,10 +652,19 @@ label.error {
   margin-top: 17px;
 }
 
+.footer-social li
+{
+  margin-bottom: 5%;
+}
+
 .footer-social li a {
   color: #cdd2d6;
-  display: block;
   margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+.footer-social li a i:hover{
+  color: #d72862;
 }
 
 #map_canvas {
@@ -669,9 +678,17 @@ label.error {
 	Contact Us
 ==========================================*/
 
+.icons {
+  padding: 10px;
+}
+
+.footer_p {
+  font-size: 15px;
+  font-weight: bold;
+}
 
 .footer {
-  background-color: #1ea78d;
+  background-color: #a39fa1;
   border-top: 5px solid #062033;
   color: #fff;
 }
