@@ -651,10 +651,19 @@ label.error {
   margin-top: 17px;
 }
 
+.footer-social li
+{
+  margin-bottom: 5%;
+}
+
 .footer-social li a {
   color: #cdd2d6;
-  display: block;
   margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+.footer-social li a i:hover{
+  color: #1ea78d;
 }
 
 #map_canvas {
