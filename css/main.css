@@ -64,10 +64,6 @@ h4, h5, h6 {
    *zoom: 1;
 }
 
-span.color {
-	color: #0feb9e;
-}
-
 body > section,
 .footer {
 	padding: 70px 0;
@@ -184,23 +180,6 @@ body > section,
 /*=========================================
 	Slider
 ==========================================*/
-.dimmed {
- position: relative;
-}
-
-.dimmed:after {
- content: " ";
- z-index: 10;
- display: block;
- position: absolute;
- height: 100%;
- top: 0;
- left: 0;
- right: 0;
- background: rgba(0, 0, 0, 0.4);
-}
-
-
 #slider {
 	padding: 0;
 }
