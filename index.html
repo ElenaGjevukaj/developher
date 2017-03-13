@@ -671,7 +671,8 @@
                       <p class="swiper_p"><br><br> - Egëzonë Haziri</p>
                     </div>
                     <div class="swiper-slide">
-                      <p class="swiper_p"><br><br> - Erëblina Hasani</p>
+                      <p class="swiper_p">The opportunity of being part of this amazing team has lead me to an incredible journey of fulfilling my goal to be a full stack web developer. Working together with these girls and having all the support from people around us, has given me more confidence and helped me improve my programing skills. I would recommend every girl that is ambitious about programming, to try this opportunity to be part of DevelopHer team and make their future carrier more brighter!
+                      <br><br> - Erëblina Hasani</p>
                     </div>
                     <div class="swiper-slide">
                       <p class="swiper_p"><br><br> - Eriona Kollqaku</p>
@@ -739,24 +740,24 @@
                 <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="contact-form">
                         <h3>Say hello!</h3>
-                        <form id="contact-form" method="post" action="contact.php">
+                        <form id="contact-form" method="post" action="process.php">
                             <div class="input-group name-email">
                                 <div class="input-field">
-                                    <input type="text" name="sender" id="name" placeholder="Name" class="form-control" required>
+                                    <input type="text" name="name" id="name" placeholder="Name" class="form-control" required>
                                 </div>
                                 <div class="input-field">
-                                    <input type="email" name="senderEmail" id="email" placeholder="Email" class="form-control" required>
+                                    <input type="email" name="email" id="email" placeholder="Email" class="form-control" required>
                                 </div>
                             </div>
                             <div class="input-group">
-                                <textarea name="message" id="Message" placeholder="Message" class="form-control" required></textarea>
+                                <textarea name="message" id="message" placeholder="Message" class="form-control" required></textarea>
                             </div>
                             <div class="input-group">
                                 <button id="form-submit" class="pull-right" type="submit" name="submit">
-                                    <a href="" style="color:#000;text-decoration: none;">Send message</a></button>
-                                </div>
-                            </form>
-                            <?=$thankYou ?>
+                                    <a href="" style="color:#000;text-decoration: none;">Send message</a>
+                                </button>
+                            </div>
+                          </form>
                         </div>
                     </div>
                     <!-- end contact form -->
@@ -886,62 +887,5 @@
 
     <!-- Custom Functions -->
     <script src="js/custom.js"></script>
-
-    <script type="text/javascript">
-    $(function(){
-        /* ========================================================================= */
-        /*	Contact Form
-        /* ========================================================================= */
-
-        $('#contact-form').validate({
-            rules: {
-                name: {
-                    required: true,
-                    minlength: 2
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                message: {
-                    required: true
-                }
-            },
-            messages: {
-                name: {
-                    required: "come on, you have a name don't you?",
-                    minlength: "your name must consist of at least 2 characters"
-                },
-                email: {
-                    required: "no email, no message"
-                },
-                message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
-                }
-            },
-            submitHandler: function(form) {
-                $(form).ajaxSubmit({
-                    type:"POST",
-                    data: $(form).serialize(),
-                    url:"process.php",
-                    success: function() {
-                        $('#contact-form :input').attr('disabled', 'disabled');
-                        $('#contact-form').fadeTo( "slow", 0.15, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#success').fadeIn();
-                        });
-                    },
-                    error: function() {
-                        $('#contact-form').fadeTo( "slow", 0.15, function() {
-                            $('#error').fadeIn();
-                        });
-                    }
-                });
-            }
-        });
-    });
-    </script>
 </body>
 </html>

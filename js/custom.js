@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
-            $("#navigation").css("background-color","#a0a0a0");
+            $("#navigation").css("background-color","#A0A0A0");
         } else {
             $("#navigation").css("background-color","rgba(16, 22, 54, 0.2)");
         }
