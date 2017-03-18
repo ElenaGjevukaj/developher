@@ -7,7 +7,7 @@ body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     line-height: 21px;
-	font-size: 13px;
+	  font-size: 13px;
     color: #6a737b;
 }
 
@@ -64,10 +64,6 @@ h4, h5, h6 {
    *zoom: 1;
 }
 
-span.color {
-	color: #0feb9e;
-}
-
 body > section,
 .footer {
 	padding: 70px 0;
@@ -86,11 +82,24 @@ body > section,
 	margin: 35px 0 45px;
 }
 
+.act-sub-title {
+	font-weight: 450;
+	line-height: 24px;
+	font-size: 14.5px;
+  margin: 35px 0 45px;
+}
+
 .sec-sub-title p {
 	font-weight: 600;
 	line-height: 24px;
 	font-size: 18px;
-	color: #5b646e;
+  margin-bottom: 35px;
+}
+.sec-sub-title-p-grey p{
+  color: #5b646e;
+}
+.sec-sub-title-p-white p{
+  color: #fff;
 }
 
 .devider {
@@ -168,33 +177,18 @@ body > section,
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
 	background-color: transparent;
-	border-top: 1px solid #32B0EE;
-	color: #fff;
+	border-top: 1px solid #d74e7c;
+	color: #d74e7c;
 }
-
+#logo{
+  margin-top: 5px;
+}
 
 
 
 /*=========================================
 	Slider
 ==========================================*/
-.dimmed {
- position: relative;
-}
-
-.dimmed:after {
- content: " ";
- z-index: 10;
- display: block;
- position: absolute;
- height: 100%;
- top: 0;
- left: 0;
- right: 0;
- background: rgba(0, 0, 0, 0.4);
-}
-
-
 #slider {
 	padding: 0;
 }
@@ -281,8 +275,6 @@ top: -8px;
   height: 8px;
   width: 8px;
 }
-
-
 
 /*=========================================
 	Features
@@ -390,8 +382,9 @@ top: -8px;
 
 .work-item > img {
   display: block;
-  height: auto;
-  max-width: 100%;
+  height: 230.438px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .overlay {
@@ -651,10 +644,19 @@ label.error {
   margin-top: 17px;
 }
 
+.footer-social li
+{
+  margin-bottom: 5%;
+}
+
 .footer-social li a {
   color: #cdd2d6;
-  display: block;
   margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+.footer-social li a i:hover{
+  color: #d72862;
 }
 
 #map_canvas {
@@ -662,21 +664,28 @@ label.error {
   width: 100%;
 }
 
-
-
 /*=========================================
 	Contact Us
 ==========================================*/
 
+.icons {
+  padding: 10px;
+}
+
+.footer_p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+}
 
 .footer {
-  background-color: #1ea78d;
+  background-color: #a0a0a0;
   border-top: 5px solid #062033;
   color: #fff;
 }
 
 .footer a:hover {
-  color: #062033;
+  color: #E91E63;
 }
 
 .footer h6 {
@@ -748,4 +757,41 @@ label.error {
   z-index: 9;
 }
 
+/*=========================================
+	Impressions
+==========================================*/
 
+.swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.swiper-slide {
+        text-align: center;
+        font-size: 16px;
+        background: transparent;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+.swiper_p {
+  padding: 0px 70px 0px 70px;
+  font-weight: 350;
+	line-height: 24px;
+	font-size: 16px;
+  margin: 0 0 45px;
+  color: #fff;
+}

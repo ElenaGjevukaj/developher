@@ -4,424 +4,426 @@
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
     <head>
-    	<!-- meta charec set -->
+        <!-- meta charec set -->
         <meta charset="utf-8">
-		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<!-- Page Title -->
+        <!-- Page Title -->
         <title>DevelopHer</title>
-		<!-- Meta Description -->
+        <!-- Meta Description -->
         <meta name="description" content="Blue One Page Creative HTML5 Template">
         <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
         <meta name="author" content="Muhammad Morshed">
-		<!-- Mobile Specific Meta -->
+        <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Google Font -->
+        <!-- Google Font -->
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-		<!-- CSS
-		================================================== -->
-		<!-- Fontawesome Icon font -->
+        <!-- CSS
+        ================================================== -->
+        <link rel="stylesheet" href="swiper_css/swiper.min.css">
+        <!-- Fontawesome Icon font -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- Twitter Bootstrap css -->
+        <!-- Twitter Bootstrap css -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- jquery.fancybox  -->
+        <!-- jquery.fancybox  -->
         <link rel="stylesheet" href="css/jquery.fancybox.css">
-		<!-- animate -->
+        <!-- animate -->
         <link rel="stylesheet" href="css/animate.css">
-		<!-- Main Stylesheet -->
+        <!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/main.css">
-		<!-- media-queries -->
+        <!-- media-queries -->
         <link rel="stylesheet" href="css/media-queries.css">
 
-		<!-- Modernizer Script for old Browsers -->
+        <!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
 
     </head>
 
-    <body id="body">
+<body id="body">
 
-		<!-- preloader -->
-		<div id="preloader">
-			<img src="img/preloader.gif" alt="Preloader">
-		</div>
-		<!-- end preloader -->
+    <!-- preloader -->
+    <div id="preloader">
+        <img src="img/loading.gif" alt="Preloader">
+    </div>
+    <!-- end preloader -->
 
-        <!--
-        Fixed Navigation
-        ==================================== -->
-        <header id="navigation" class="navbar-fixed-top navbar">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-					<!-- /responsive nav button -->
+    <!--
+    Fixed Navigation
+    ==================================== -->
+    <header id="navigation" class="navbar-fixed-top navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars fa-2x"></i>
+                </button>
+                <!-- /responsive nav button -->
 
-					<!-- logo -->
-                    <a class="navbar-brand" href="#body">
-						<h1 id="logo">
-							<img src="img/logo.png" alt="DevelopHer" width="160px" height="35px">
-						</h1>
-					</a>
-					<!-- /logo -->
-                </div>
-
-				<!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li class="current"><a href="#body">Home</a></li>
-                        <li><a href="#features">Partners</a></li>
-                        <li><a href="#works">About us</a></li>
-                        <li><a href="#team">Cohort</a></li>
-                        <li><a href="#work">Activities</a></li>
-                        <li><a href="http://google.com">Contact</a></li>
-                    </ul>
-                </nav>
-				<!-- /main nav -->
-
+                <!-- logo -->
+                <a class="navbar-brand" href="#body">
+                    <h1 id="logo">
+                        <img src="img/logo.png" alt="DevelopHer" width="160px" height="35px">
+                    </h1>
+                </a>
+                <!-- /logo -->
             </div>
-        </header>
-        <!--
-        End Fixed Navigation
-        ==================================== -->
 
+            <!-- main nav -->
+            <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                <ul id="nav" class="nav navbar-nav">
+                    <li><a href="#body">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#cohort">Cohort</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- /main nav -->
 
+        </div>
+    </header>
+    <!--
+    End Fixed Navigation
+    ==================================== -->
+    <!--
+    Home Slider
+    ==================================== -->
 
-        <!--
-        Home Slider
-        ==================================== -->
+    <section id="slider">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-		<section id="slider">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators bullet -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+            <!-- End Indicators bullet -->
 
-				<!-- Indicators bullet -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-				</ol>
-				<!-- End Indicators bullet -->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox" >
 
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox" >
+                <!-- single slide -->
+                <div class="item active " style="background-image: url(img/banner1-min2.jpg);">
+                    <div class="carousel-caption">
+                        <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> DevelopHer</span>!</h2>
+                        <h3 data-wow-duration="1000ms" class="wow slideInRight animated">No, this isn't my brother's computer!</h3>
+                    </div>
+                </div>
+                <!-- end single slide -->
 
-					<!-- single slide -->
-					<div class="item active dimmed" style="background-image: url(img/class1.jpg);">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> DevelopHer</span>!</h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInRight animated">No, this isn't my brother's computer!</h3>
+                <!-- single slide -->
+                <div class="item" style="background-image: url(img/coding-dojo-min2.jpg);">
+                    <div class="carousel-caption">
+                        <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> DevelopHer</span>!</h2>
+                        <h3 data-wow-duration="1000ms" class="wow slideInRight animated">We believe every single woman could accomplish what we've accomplished!</h3>
+                    </div>
+                </div>
+                <!-- end single slide -->
 
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
+                <!-- single slide -->
+                <div class="item" style="background-image: url(img/books-min2.jpg);">
+                    <div class="carousel-caption">
+                        <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> DevelopHer</span>!</h2>
+                        <h3 data-wow-duration="1000ms" class="wow slideInRight animated">If we do not share our stories and shine a light on inequities, things will not change.</h3>
+                    </div>
+                </div>
+                <!-- end single slide -->
 
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/coding-dojo.jpg);">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> DevelopHer</span>!</h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInRight animated">No, this isn't my brother's computer!</h3>
-
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
-
-
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/books.jpg);">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> DevelopHer</span>!</h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInRight animated">No, this isn't my brother's computer!</h3>
-
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
-
-
-
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/class2.jpg);">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> DevelopHer</span>!</h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInRight animated">No, this isn't my brother's computer!</h3>
-
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
-
-
-
-				</div>
-				<!-- End Wrapper for slides -->
-
-			</div>
-		</section>
-
-        <!--
-        End Home SliderEnd
-        ==================================== -->
-        <section id="features" class="features">
-          <div class="container">
+                <!-- single slide -->
+                <div class="item" style="background-image: url(img/class2min.jpg);">
+                    <div class="carousel-caption">
+                        <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet <span>DevelopHer</span>!</h2>
+                        <h3 data-wow-duration="1000ms" class="wow slideInRight animated">Life is a series of building, testing, changing and iterating.</h3>
+                    </div>
+                </div>
+                <!-- end single slide -->
+            </div>
+            <!-- End Wrapper for slides -->
+        </div>
+    </section>
+    <!--
+    End Home SliderEnd
+    ==================================== -->
+    <section id="about" class="features">
+        <div class="container">
             <div class="row">
 
-              <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-                <h2>About</h2>
-                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-              </div>
+                <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                    <h2>About</h2>
+                    <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                </div>
 
-              <!-- service item -->
-              <div class="col-md-6 wow fadeInLeft" data-wow-duration="500ms">
-                <div class="service-item">
-                  <div class="service-desc">
-                    <p>DevelopHer Kosova is the first and only full-stack coding academy offered to young women in the Balkan states, specifically Kosovo, with a flexible online program offered tuition-free for participants. A joint initiative between two US-based organizations (Coding Dojo and Flora Stationery) and two Kosovo-based organizations (Girls Coding Kosova and Innovation Centre Kosovo), DevelopHer Kosova seeks to empower young women in Kosovo with technology-based skills to be employed in the 21st century job marketplace.</p> <br>
-                    <p>The mission of the initiative is to both address the nearly 60% youth unemployment rate that plagues Kosovo and the lack of female participation in the technology industry through creating leading role female role models with global opportunities by empowering young women through a tuition-free technology skills program. The online bootcamp is a flexible alternative that provides online access for students to easily manage their schedule to work or attend university classes while enrolled.</p>
-                  </div>
+                <!-- service item -->
+                <div class="col-md-6 wow fadeInLeft" data-wow-duration="500ms">
+                    <div class="service-item">
+                        <div class="service-desc">
+
+                            <h4><b>DevelopHer Kosova</b> is the first and only full-stack coding academy offered to young women in the Balkan states, specifically Kosovo, with a flexible online program offered tuition-free for participants.<br><br>
+                            A joint initiative between two US-based organizations: <b> Coding Dojo and Flora Stationery</b> and two Kosovo-based organizations: <b>Girls Coding Kosova and Innovation Centre Kosovo.</b><br><br>
+
+                            We seek to empower young women in Kosovo with technology-based skills to be employed in the 21st century job marketplace.The mission of the initiative is to both address the nearly <b>60% youth unemployment rate</b> that plagues Kosovo and the lack of female participation in the technology industry through creating leading role female role models with global opportunities.<br><br>
+                            The online program is a flexible alternative that provides online access for students to easily manage their schedule to work or attend university classes while enrolled. 
+
+                            </h4> 
+
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- end service item -->
-              <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-                <div class="service-item">
-                  <div class="service-desc">
-                    <img class="img-responsive" src="img/about_img.jpg" alt="About">
-                  </div>
+                <!-- end service item -->
+                <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+                    <div class="service-item">
+                        <div class="service-desc">
+                            <img class="img-responsive" src="img/about_img1.jpg" alt="About">
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facts" class="facts">
+                <div class="parallax-overlay">
+                    <div class="container">
+                        <div class="row number-counters">
+                            <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+                                <h2>Next generation comming soon!</h2>
+                                <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                            </div>
+                <div class="sec-sub-title sec-sub-title-p-white text-center">
+                  <p>Would you like to be part of this amazing journey ?!</p>
+                  <button type="button" class="btn btn-primary btn-lg"><a href="https://goo.gl/forms/YQnVqS1qXtLkgKLK2" target="_blank">Subscribe here!</button></a>
+                </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section id="facts" class="facts">
-    			<div class="parallax-overlay">
-    				<div class="container">
-    					<div class="row number-counters">
+    <!--        Features        ==================================== -->
 
-    						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-    							<h2>Some Fun Facts</h2>
-    							<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-    						</div>
+    <section id="partners" class="features">
+        <div class="container">
+            <div class="row">
 
-    					</div>
-    				</div>
-    			</div>
-    		</section>
+                <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                    <h2>Partners</h2>
+                    <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                </div>
 
-        <!--        Features        ==================================== -->
+                <!-- service item -->
+                <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+                    <div class="service-item">
+                        <div class="partner-logo">
+                            <a href="http://www.florastationery.com/" target="_blank">
+                                <img class="img-responsive" src="img/partners/FLORAStationery_Logo.png" alt="FLORA logo">
+                            </a>
+                        </div>
+                        <div class="service-desc">
+                            <h3>Flora Stationery</h3>
+                            <p>Flora Stationery is a nonprofit organization which sells unique stationery products featuring original artwork from students in Kosovo to support a scholarship fund for young women pursuing a college education in Eastern Europe. <br>The mission of Flora is to create a sustainable source of funding to support young women in need of assistance to attend a university in their home country. Through distributing a portion of the profits from every sale, young women are supported for an entire semester of college tuition.</p>
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="https://www.facebook.com/florastationery" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                                    <a href="https://www.instagram.com/florastationery/" target="_blank"> <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>Flora Stationary
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- end service item -->
 
-		<section id="features" class="features">
-			<div class="container">
-				<div class="row">
+                <!-- service item -->
+                <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+                    <div class="service-item">
+                        <div class="partner-logo">
+                            <a href="http://girlscodingkosova.org/" target="_blank">
+                                <img class="img-responsive" src="img/partners/gck-logo.png" alt="GCK logo">
+                            </a>
+                        </div>
+                        <div class="service-desc">
+                            <h3>Girls Coding Kosova</h3>
+                            <p>Girls Coding Kosova's mission is to encourage women to reach their full academic and professional potential in technical fields and its network spans across all municipalities in Kosovo and includes over eight hundred (800) active young members aged between fifteen (15) and twenty-five (25). <br>Girls Coding Kosova is constantly working on bringing events to the young and enthusiasts girls of Kosovo to encourage them to code, launch companies or work as developers in other exciting startups in the country. </p>
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="https://www.facebook.com/GirlsCodingKosova/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                                    <a href="https://www.instagram.com/girlscodingkosova/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>Girls Coding Kosova
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end service item -->
 
-					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-						<h2>Partners</h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-					</div>
+                <!-- service item -->
+                <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
+                    <div class="service-item">
+                        <div class="partner-logo">
+                            <a href="http://ickosovo.com/" target="_blank"><img class="img-responsive" src="img/partners/ick-logo.svg" alt="ICK logo"></a>
+                        </div>
+                        <div class="service-desc">
+                            <h3>Innovation Centre Kosovo</h3>
+                            <p>Innovation Centre Kosovo (ICK) is a center whose aim is to connect research and development component of scientific field with the business sector, focusing on creating new job opportunities oriented towards the future, based on knowledge and new technology.<br>Innovation Centre Kosovo was founded to support entrepreneurship, innovation and commercially based business development, with a focus on information and communication technology. The centre supports both startups and existing companies with the potential for growth.</p>
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="https://www.facebook.com/ickosovo" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                                    <a href="https://www.instagram.com/ICKosovo/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>Innovation Centre Kosovo
+                                </li>
+                             </ul>
+                        </div>
+                     </div>
+                </div>
+                <!-- end service item -->
 
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
-						<div class="service-item">
-							<div class="partner-logo">
-								<img class="img-responsive" src="img/partners/FLORAStationery_Logo.png" alt="GCK logo">
-							</div>
-
-							<div class="service-desc">
-								<h3>Flora Stationary</h3>
-                <p>Flora Stationery is a nonprofit organization which sells unique stationery products featuring original artwork from students in Kosovo to support a scholarship fund for young women pursuing a college education in Eastern Europe. The mission of Flora is to create a sustainable source of funding to support young women in need of assistance to attend a university in their home country. Through distributing a portion of the profits from every sale, young women are supported for an entire semester of college tuition.</p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
-
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="service-item">
-              <div class="partner-logo">
-								<img class="img-responsive" src="img/partners/gck-logo.png" alt="Flora logo">
-							</div>
-							<div class="service-desc">
-								<h3>Girls Coding Kosova</h3>
-                <p>Our mission is to encourage women to reach their full academic and professional potential in technical fields. Its network spans across all municipalities in Kosovo and includes over six hundred (600) active young members aged between fifteen (15) and twenty-five (25). We are constantly working on bringing events to the young and enthusiasts girls of Kosovo to encourage them to code, launch companies or work as developers in other exciting startups in the country.</p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
-
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
-						<div class="service-item">
-              <div class="partner-logo">
-                <img class="img-responsive" src="img/partners/ick-logo.svg" alt="ICK logo">
-              </div>
-
-							<div class="service-desc">
-								<h3>Innovation Centre Kosovo</h3>
-                <p>Innovation Centre Kosovo (ICK) is a center whose aim is to connect research and development component of scientific field with the business sector, focusing on creating new job opportunities oriented towards the future, based on knowledge and new technology.
-                Innovation Centre Kosovo was founded to support entrepreneurship, innovation and commercially based business development, with a focus on information and communication technology.</p>
-                <p>The centre supports both start-ups and existing companies with the potential for growth.</p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
-
-				</div>
-			</div>
-		</section>
+            </div>
+        </div>
+    </section>
 
         <!--
         End Features
         ==================================== -->
         <section id="facts" class="facts">
-          <div class="parallax-overlay">
-            <div class="container">
-              <div class="row number-counters">
+            <div class="parallax-overlay">
+                <div class="container">
+                    <div class="row number-counters">
 
-                <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-                  <h2>Some Fun Facts</h2>
-                  <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                        <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+                            <h2>Become a partner</h2>
+                            <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                        </div>
+                        <div class="sec-sub-title sec-sub-title-p-white text-center">
+                            <p>You can join our initiative to support the next generation of DevelopHer!</p>
+                            <a href="#contact"><button type="button" class="btn btn-primary btn-lg">Contact us!</button></a>
+                        </div>
+                    </div>
                 </div>
-
-              </div>
             </div>
-          </div>
         </section>
 
-        <!--
-        Our Works
-        ==================================== -->
+        <!-- Activities
+          ==================================== -->
 
-		<section id="works" class="works clearfix">
-			<div class="container">
-				<div class="row">
+        <section id="activities" class="works clearfix">
+            <div class="container">
+                <div class="row">
 
-					<div class="sec-title text-center">
-						<h2>Activities</h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-					</div>
+                    <div class="sec-title text-center">
+                        <h2>Activities</h2>
+                        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                    </div>
 
-					<div class="sec-sub-title text-center">
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-					</div>
+                    <div class="act-sub-title text-center">
+                        <p style="text-align: left;"> <b>During a 6 month period</b>, a cohort of ten women go through the <b>Coding Dojo</b> online coding bootcamp, which is taught by live instructors on their web platform accessed daily by the cohort. The students either complete the courses at the co-working space provided by <b>Innovation Centre Kosovo (ICK)</b> or within their own homes. <br><br>Typically, the women meet daily at ICK co-working space to go through the courses together, collaborate on assignments, and help answer any questions that may arise within the course. <br><br>By the end of this program the cohort will have skills of a Full Stack Web Developer, by completing three (3) modules: <br><br><b> 1. Web Fundamentals</b> inculding: HTML, CSS, JavaScript, jQuery; <br><br><b>2. Python</b> including: Flask and Django frameworks; <br><br><b>3. MEAN</b> including: Node.js, AngularJS, Express and MongoDB. <br><br>
+                        Check out some of the pictures from the activities of the awesome 10 developers during the first program.
+                        </p>
+                    </div>
 
-					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-						<ul class="text-center">
-							<li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-							<li><a href="javascript:;" data-filter=".branding" class="filter">Projects</a></li>
-							<li><a href="javascript:;" data-filter=".web" class="filter">Photos</a></li>
-							<li><a href="javascript:;" data-filter=".logo-design" class="filter">logo design</a></li>
-							<li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
-						</ul>
-					</div>
+                    <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+                        <ul class="text-center" myList>
+                            <li><a href="javascript:;" data-filter="all" class="filter">All</a></li>
+                            <li><a href="javascript:;" data-filter=".ick" class="filter">Intro at ICK Environment</a></li>
+                            <li><a href="javascript:;" data-filter=".book" class="active filter">Book receiving</a></li>
+                            <li><a href="javascript:;" data-filter=".startup" class="active filter">Startup Weekend</a></li>
+                            <li><a href="javascript:;" data-filter=".selfies" class="active filter">Day to day work</a></li>
+                            <li><a href="javascript:;" data-filter=".graduation" class="active filter">Graduation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-				</div>
-			</div>
+            <div class="project-wrapper" id="project-wrapper">
 
-			<div class="project-wrapper">
+                <figure class="mix work-item ick">
+                    <img class="activities" src="img/works/1.jpg" alt="ICK environment">
+                         <figcaption class="overlay">
+                            <a class="fancybox" rel="works" title="ICK environment" href="img/works/1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                         </figcaption>
+                </figure>
 
-				<figure class="mix work-item branding">
-					<img src="img/works/item-1.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
+                <figure class="mix work-item ick">
+                    <img class="activities" src="img/works/4.jpg" alt="ICK environment">
+                        <figcaption class="overlay">
+                            <a class="fancybox" rel="works" title="After coffee, start to code ;)" href="img/works/4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        </figcaption>
+                 </figure>
 
-				<figure class="mix work-item web">
-					<img src="img/works/item-2.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
+                <figure class="mix work-item book">
+                    <img class="activities" src="img/works/book2.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="So happy with those new books!" href="img/works/book2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                    </figcaption>
+                </figure>
 
-				<figure class="mix work-item logo-design">
-					<img src="img/works/item-3.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
+                 <figure class="mix work-item book">
+                    <img class="activities" src="img/works/book5.jpg" alt="">
+                       <figcaption class="overlay">
+                           <a class="fancybox" rel="works" title="Coding Dojo sent us books!" href="img/works/book5.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        </figcaption>
+                </figure>
 
-				<figure class="mix work-item photography">
-					<img src="img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
+                <figure class="mix work-item startup">
+                    <img class="activities" src="img/works/17.jpg" alt="">
+                        <figcaption class="overlay">
+                            <a class="fancybox" rel="works" title="DevelopHer at Startup Weekend" href="img/works/17.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        </figcaption>
+                </figure>
 
-				<figure class="mix work-item branding">
-					<img src="img/works/item-5.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
+                <figure class="mix work-item startup">
+                    <img class="activities" src="img/works/23.jpg" alt="">
+                        <figcaption class="overlay">
+                            <a class="fancybox" rel="works" title="Yllka presenting ideas" href="img/works/23.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        </figcaption>
+                </figure>
 
-				<figure class="mix work-item web">
-					<img src="img/works/item-6.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
+                <figure class="mix work-item startup">
+                    <img class="activities" src="img/works/31.jpg" alt="">
+                        <figcaption class="overlay">
+                           <a class="fancybox" rel="works" title="DevelopHer girls winners of Startup Weekend Prishtina!" href="img/works/31.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        </figcaption>
+                </figure>
 
-				<figure class="mix work-item logo-design">
-					<img src="img/works/item-7.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
+                <figure class="mix work-item startup">
+                    <img class="activities" src="img/works/42.jpg" alt="">
+                    <figcaption class="overlay">
+                      <a class="fancybox" rel="works" title="DevelopHer girls Winners!" href="img/works/42.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                    </figcaption>
+                </figure>
 
-				<figure class="mix work-item photography">
-					<img src="img/works/item-8.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
+                <figure class="mix work-item selfies">
+                    <img class="activities" src="img/works/43.jpg" alt="">
+                    <figcaption class="overlay">
+                      <a class="fancybox" rel="works" title="Here started everything!" href="img/works/43.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                    </figcaption>
+                </figure>
 
-			</div>
+                <figure class="mix work-item selfies">
+                    <img class="activities" src="img/works/55.jpg" alt="">
+                    <figcaption class="overlay">
+                      <a class="fancybox" rel="works" title="Ok, let's take a selfie!" href="img/works/55.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                    </figcaption>
+                 </figure>
 
+                <figure class="mix work-item selfies">
+                    <img class="activities" src="img/works/61.jpg" alt="">
+                    <figcaption class="overlay">
+                      <a class="fancybox" rel="works" title="Working hard on those assignments!" href="img/works/61.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                    </figcaption>
+                </figure>
 
-		</section>
-
+                <figure class="mix work-item selfies">
+                    <img class="activities" src="img/works/69.jpg" alt="">
+                    <figcaption class="overlay">
+                      <a class="fancybox" rel="works" title="Dinner with Flora Stationery girls!" href="img/works/69.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
         <!--
         End Our Works
         ==================================== -->
@@ -430,501 +432,475 @@
         Meet Our Team
         ==================================== -->
 
-		<section id="team" class="team">
-			<div class="container">
-				<div class="row">
+        <section id="cohort" class="team">
+            <div class="container">
+                <div class="row">
 
-					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
-						<h2>Meet Our Cohort</h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-					</div>
+                    <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+                        <h2>Meet Our Cohort</h2>
+                        <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                    </div>
 
-					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-					</div>
+                    <div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+                        <p>Coming together is a beginning. Keeping together is progress. Working together is success.</p>
+                    </div>
 
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="member-thumb">
-							<img src="img/team/Argeta_Morina.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Argeta Morina</h4>
-					</figure>
-					<!-- end single member -->
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Argeta_Morina.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Science</h5>
+                                <p>Favorite: Javascript, Express, Angular, Node and MongoDB.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/argetamorina" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href=" https://www.linkedin.com/in/argetamorina/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:argetamorina@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Argeta Morina</h4>
+                    </figure>
+                    <!-- end single member -->
 
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="member-thumb">
-							<img src="img/team/Dhurata_Kamberi.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Dhurata Kamberi</h4>
-					</figure>
-					<!-- end single member -->
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Dhurata_Kamberi.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Science</h5>
+                                <p>Favorite: Javascript, Express, Angular, Node and MongoDB.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/dhuratak" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/dhurata-kamberi-a7184ab7" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:dhuratakamberi_@hotmail.com "><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Dhurata Kamberi</h4>
+                    </figure>
+                    <!-- end single member -->
 
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="member-thumb">
-							<img src="img/team/Edisa_Heta.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Edisa Heta</h4>
-					</figure>
-					<!-- end single member -->
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Edisa_Heta.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Science</h5>
+                                <p>Favorite: Python, Flask, Django and MySQL.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/EdisaHeta" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href=" https://www.linkedin.com/in/edisa-heta-b0b2b311b" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:hetaedisa@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Edisa Heta</h4>
+                    </figure>
+                    <!-- end single member -->
 
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="member-thumb">
-							<img src="img/team/Egezone_Haziri.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Egëzonë Haziri</h4>
-					</figure>
-					<!-- end single member -->
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Egezone_Haziri.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Science</h5>
+                                <p>Favorite: Python, Flask, Django and MySQL.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href=" https://github.com/ehaziri" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href=" https://www.linkedin.com/in/ehaziri" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:egezonehaziri@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Egëzonë Haziri</h4>
+                    </figure>
+                    <!-- end single member -->
 
-				</div>
-        <div class="row">
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="member-thumb">
-							<img src="img/team/Ereblina_Hasani.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Erëblina Hasani</h4>
-					</figure>
-					<!-- end single member -->
+                </div>
+                <div class="row">
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Ereblina_Hasani.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Engineering</h5>
+                                <p>Favorite: Javascript, Express, Angular, Node and MongoDB.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/Erblinah "target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/er%C3%ABblina-hasani-415796130 " target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:erblinahasani@outlook.com "><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Erëblina Hasani</h4>
+                    </figure>
+                    <!-- end single member -->
 
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="member-thumb">
-							<img src="img/team/eriona_kollqaku.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Eriona Kollqaku</h4>
-					</figure>
-					<!-- end single member -->
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="member-thumb">
+                            <img src="img/team/eriona_kollqaku.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Engineering </h5>
+                                <p>Favorite: Javascript, Express, Angular, Node and MongoDB.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/erionak" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/eriona-kollqaku-617590109" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:eriona_k@hotmail.com "><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Eriona Kollqaku</h4>
+                    </figure>
+                    <!-- end single member -->
 
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="member-thumb">
-							<img src="img/team/Patrisa_Imeri.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Patrisa Imeri</h4>
-					</figure>
-					<!-- end single member -->
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Patrisa_Imeri.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Science</h5>
+                                <p>Favorite: Python, Flask, Django and MySQL.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/patrisaimeri" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/patrisa-imeri-27233813b/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:imeripatrisa@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Patrisa Imeri</h4>
+                    </figure>
+                    <!-- end single member -->
 
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="member-thumb">
-							<img src="img/team/Saranda_Sadiku.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Saranda Sadiku</h4>
-					</figure>
-					<!-- end single member -->
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Saranda_Sadiku.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Engineering</h5>
+                                <p>Favorite: Python, Flask, Django and MySQL.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/SarandaSadiku" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/saranda-sadiku-224471121?trk=nav_responsive_tab_profile_pic "target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:sarandasadiku@live.com "><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Saranda Sadiku</h4>
+                    </figure>
+                    <!-- end single member -->
 
-				</div>
-        <div class="row">
-          <!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="member-thumb">
-							<img src="img/team/Vjosa_Preniqi.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Vjosa Preniqi</h4>
-					</figure>
-					<!-- end single member -->
+                </div>
+                <div class="row">
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Vjosa_Preniqi.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Science</h5>
+                                <p>Favorite: Python and MySQL.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/vjosapreniqi" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/vjosa-preniqi-a5a002b9/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:vjosa.p@hotmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Vjosa Preniqi</h4>
+                    </figure>
+                    <!-- end single member -->
 
-          <!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="member-thumb">
-							<img src="img/team/Yllka_Gojani.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Yllka Gojani</h4>
-					</figure>
-					<!-- end single member -->
-        </div>
-			</div>
-		</section>
+                    <!-- single member -->
+                    <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="member-thumb">
+                            <img src="img/team/Yllka_Gojani.jpg" alt="Team Member" class="img-responsive">
+                            <figcaption class="overlay">
+                                <h5>Computer Science</h5>
+                                <p>Favorite: Python, Flask, Django and MySQL.</p>
+                                <ul class="social-links text-center">
+                                    <li><a href="https://github.com/YllkaGojani" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/yllka-gojani-729386136" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                    <li><a href="mailto:yllka.gojani@gmail.com "><i class="fa fa-envelope fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                        <h4>Yllka Gojani</h4>
+                    </figure>
+                    <!-- end single member -->
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--
+    End Meet Our Team
+    ==================================== -->
 
-        <!--
-        End Meet Our Team
-        ==================================== -->
+    <!--
+    Some fun facts
+    ==================================== -->
+        <section id="facts" class="facts">
+            <div class="parallax-overlay">
+                <div class="container">
+                    <div class="row number-counters">
 
-		<!--
-        Some fun facts
-        ==================================== -->
+                        <div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+                            <h2>impressions</h2>
+                            <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                        </div>
 
-		<section id="facts" class="facts">
-			<div class="parallax-overlay">
-				<div class="container">
-					<div class="row number-counters">
+              <div class="swiper-container" data-speed="400" data-space-between="40" data-pagination=".swiper-pagination">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <p class="swiper_p">"It was the first time I really felt like I was part of a group. We all worked together and we really got to meet each other. I can say they are, beside coworkers, really good friends. I really liked that we can develop together as a group and the fact that we are all girls in that group, makes it more special. I have learned from other experiences and combined with what I have known, makes a new improved experience."
+                      <br><br> - Argeta Morina</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p">"Being member of DevelopHer was the most beautiful thing that could happen to me! The curriculum seemed pretty comprehensive, I liked how it really covered the full stack. Instructors and TAs were willing to help at anytime and I really appreciate it. I would recommend every girl to be part of DevelopHer, to be more inspired than ever to give coding a shot and learn the feeling of building something. I promise you won’t regret it! :)"
+                      <br><br> - Dhurata Kamberi</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p">"DevelopHer was a great opportunity for me to learn and improve my skills in programming.But learning and practicing would not be the same if i didn't have this amazing team,that were willing to help anytime. I highly recommend this opportunity to every girl who is interested in programming."
+                          <br><br> - Edisa Heta</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p">"var fs = " FloraStationery "; <br>
+                       var gck = " GirlsCodingKosova ";<br>
+                       var ick = " InnovationCentreKosovo ";<br>
+                       var cd = " CodingDojo ";<br>
+                       console.log(fs + gck + ick + cd + " => " + " DevelopHer is grateful and loves coding ^_^");"<br><br> - Egëzonë Haziri</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p"><br><br>"" - Erëblina Hasani</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p"><br><br>"" - Eriona Kollqaku</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p">"The biggest step towards achieving my goal to be a web developer was the opportunity to be part of DevelopHer project.. Girls Coding Kosova and Flora Stationary have done a great job in giving us the opportunity and the space to learn new skills and accomplish our engineering dreams, to whom, I  will always be thankful. Being part of an awesome team of techy girls feels great."<br><br> - Patrisa Imeri</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p">"DevelopHer has helped me make a step into a career that I love and enjoy! It provides an online learning platform called Coding Dojo which has a very structured program. I learned the important concepts of web-development and now I can see the big picture of what is required from me in order to have a successful career as a full stack web-developer. Furthermore what has been a huge help for me during the Developher program was the friendly environment of Innovation Centre Kosovo (ICK), where all of the group could gather, work with each other, and go through the learning material."
+                      <br><br> - Saranda Sadiku</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p">"DevelopHer was a great Idea at first, then it became a successful project that has had a great impact on us. We DevelopHer girls, thanks to coding dojo platform, have achieved to raise our capacities in full stack development. The way of learning and practicing modules, was a great experience and at the same time it was and challenging too. I strongly believe that this experience will help us on finding job opportunities and start successful careers."
+                      <br><br> - Vjosa Preniqi</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="swiper_p">"DevelopHer made a great impact on my social and career life. It transformed and shaped my abilities as a programmer. I can say without a doubt that DevelopHer is a wonderful opportunity for every novice programmer. I appreciate everyone who worked with a lot of commitment to bring this program to life, including here Coding Dojo instructors and TAs, Ashley and Victoria from Flora Stationary, Blerta from Girls Coding Kosova, everyone at Innovation Centre Kosovo and of course my wonderful teammates."
+                      <br><br> - Yllka Gojani</p>
+                    </div>
+                </div>
+                  <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-							<h2>Some Fun Facts</h2>
-							<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-						</div>
+    <!--
+    End Some fun facts
+    ==================================== -->
 
-						<!-- first count item -->
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-							<div class="counters-item">
-								<i class="fa fa-clock-o fa-3x"></i>
-								<strong data-to="3200">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Hours of Work</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-							<div class="counters-item">
-								<i class="fa fa-code fa-3x"></i>
-								<strong data-to="12340">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Lines Coded</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-							<div class="counters-item">
-								<i class="fa fa-tasks fa-3x"></i>
-								<strong data-to="360">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p> Assignments Completed</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-							<div class="counters-item">
-								<i class="fa fa-coffee fa-3x"></i>
-								<strong data-to="6454">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Cups of Coffee</p>
-							</div>
-						</div>
-						<!-- end first count item -->
+    <!--
+    Contact Us
+    ==================================== -->
 
-					</div>
-				</div>
-			</div>
-		</section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row mb50">
 
-        <!--
-        End Some fun facts
-        ==================================== -->
+                <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+                    <h2>Contact us:</h2>
+                    <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+                </div>
 
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sec-sub-title text-center wow fadeInLeft animated" data-wow-duration="1000ms">
+                    <p style="text-align: center;">If you want to ask us questions or partner with us, use the form below and we will get back to you as soon as possible!</p>
+                </div>
+                       
+                <!-- contact form -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="contact-form">
+                        <form id="contact-form" method="post" action="contact.php">
+                            <div class="input-group name-email">
+                                <div class="input-field">
+                                    <input type="text" name="sender" id="name" placeholder="Name" class="form-control" required>
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" name="senderEmail" id="email" placeholder="Email" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <textarea name="message" id="Message" placeholder="Message" class="form-control" required></textarea>
+                            </div>
+                            <div class="input-group">
+                                <button id="form-submit" class="pull-right" type="submit" name="submit">
+                                    <a href="" style="color:#000;text-decoration: none;">Send message</a></button>
+                                </div>
+                            </form>
+                            <?=$thankYou ?>
+                        </div>
+                    </div>
 
-		<!--
-        Contact Us
-        ==================================== -->
+            
 
-		<section id="contact" class="contact">
-			<div class="container">
-				<div class="row mb50">
+                </div>
+            </div>
+                    <!-- end contact form -->
 
-					<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-						<h2>Let’s Discuss</h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-					</div>
+                </div>
+            </div>
 
-					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-					</div>
+            <!-- Google map -->
+            <div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div>
+            <!-- End Google map -->
 
-					<!-- contact address -->
-					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
-						<div class="contact-address">
-							<h3>Cras at ultrices erat, sed vulputate!</h3>
-							<p>2345 Setwant natrer, 1234,</p>
-							<p>Washington. United States.</p>
-							<p>(401) 1234 567</p>
-						</div>
-					</div>
-					<!-- end contact address -->
-
-					<!-- contact form -->
-					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="contact-form">
-							<h3>Say hello!</h3>
-							<form action="#" id="contact-form">
-								<div class="input-group name-email">
-									<div class="input-field">
-										<input type="text" name="name" id="name" placeholder="Name" class="form-control">
-									</div>
-									<div class="input-field">
-										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
-									</div>
-								</div>
-								<div class="input-group">
-									<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
-								</div>
-								<div class="input-group">
-									<input type="submit" id="form-submit" class="pull-right" value="Send message">
-								</div>
-							</form>
-						</div>
-					</div>
-					<!-- end contact form -->
-
-					<!-- footer social links -->
-					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<ul class="footer-social">
-							<li><a href="https://www.behance.net/Themefisher"><i class="fa fa-behance fa-2x"></i></a></li>
-							<li><a href="https://www.twitter.com/Themefisher"><i class="fa fa-twitter fa-2x"></i></a></li>
-							<li><a href="https://dribbble.com/themefisher"><i class="fa fa-dribbble fa-2x"></i></a></li>
-							<li><a href="https://www.facebook.com/Themefisher"><i class="fa fa-facebook fa-2x"></i></a></li>
-						</ul>
-					</div>
-					<!-- end footer social links -->
-
-				</div>
-			</div>
-
-			<!-- Google map -->
-			<div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div>
-			<!-- End Google map -->
-
-		</section>
+        </section>
 
         <!--
         End Contact Us
         ==================================== -->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                <div class="center col-lg-12 col-md-12 col-sm-12 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+                    <div class="contact-address">
+                        <p style="text-align: center;"><b>Address:</b> Rexhep Mala strt. 28A, 10000 Prishtina, Kosovo.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                         <p class="copyright text-center">
+                            <a href="http://developher.co/">DevelopHer</a> © 2017. Coded with <i class="fa fa-heart-o fa-md"></i> by <a href="http://developher.co/">DevelopHer</a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
+        <a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
 
-		<footer id="footer" class="footer">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="footer-single">
-							<img src="img/footer-logo.png" alt="">
-							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="footer-single">
-							<h6>Subscribe </h6>
-							<form action="#" class="subscribe">
-								<input type="text" name="subscribe" id="subscribe">
-								<input type="submit" value="&#8594;" id="subs">
-							</form>
-							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="footer-single">
-							<h6>Explore</h6>
-							<ul>
-								<li><a href="#">Inside Us</a></li>
-								<li><a href="#">Flickr</a></li>
-								<li><a href="#">Google</a></li>
-								<li><a href="#">Forum</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="footer-single">
-							<h6>Support</h6>
-							<ul>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Market Blog</a></li>
-								<li><a href="#">Help Center</a></li>
-								<li><a href="#">Pressroom</a></li>
-							</ul>
-						</div>
-					</div>
-
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="copyright text-center">
-							Copyright © 2015 <a href="http://themefisher.com/">Themefisher</a>. All rights reserved. Designed & developed by <a href="http://themefisher.com/">Themefisher</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
-
-		<!-- Essential jQuery Plugins
-		================================================== -->
-		<!-- Main jQuery -->
+        <!-- Essential jQuery Plugins
+        ================================================== -->
+        <!-- Main jQuery -->
         <script src="js/jquery-1.11.1.min.js"></script>
-		<!-- Single Page Nav -->
+        <!-- Single Page Nav -->
         <script src="js/jquery.singlePageNav.min.js"></script>
-		<!-- Twitter Bootstrap -->
+        <!-- Twitter Bootstrap -->
         <script src="js/bootstrap.min.js"></script>
-		<!-- jquery.fancybox.pack -->
+        <!-- jquery.fancybox.pack -->
         <script src="js/jquery.fancybox.pack.js"></script>
-		<!-- jquery.mixitup.min -->
+        <!-- jquery.mixitup.min -->
         <script src="js/jquery.mixitup.min.js"></script>
-		<!-- jquery.parallax -->
+        <!-- jquery.parallax -->
         <script src="js/jquery.parallax-1.1.3.js"></script>
-		<!-- jquery.countTo -->
+        <!-- jquery.countTo -->
         <script src="js/jquery-countTo.js"></script>
-		<!-- jquery.appear -->
+        <!-- jquery.appear -->
         <script src="js/jquery.appear.js"></script>
-		<!-- Contact form validation -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-		<!-- Google Map -->
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-		<!-- jquery easing -->
+        <!-- Contact form validation -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+        <!-- Google Map -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcj7IUmQauOqpqeL5xj-UZbLb03vhBV3s&amp;sensor=false"></script>
+        <!-- jquery easing -->
         <script src="js/jquery.easing.min.js"></script>
-		<!-- jquery easing -->
+        <!-- jquery easing -->
         <script src="js/wow.min.js"></script>
-		<script>
-			var wow = new WOW ({
-				boxClass:     'wow',      // animated element css class (default is wow)
-				animateClass: 'animated', // animation css class (default is animated)
-				offset:       120,          // distance to the element when triggering the animation (default is 0)
-				mobile:       false,       // trigger animations on mobile devices (default is true)
-				live:         true        // act on asynchronously loaded content (default is true)
-			  }
-			);
-			wow.init();
-		</script>
-		<!-- Custom Functions -->
-        <script src="js/custom.js"></script>
 
-		<script type="text/javascript">
-			$(function(){
-				/* ========================================================================= */
-				/*	Contact Form
-				/* ========================================================================= */
+        <script>
+            var wow = new WOW ({
+                boxClass:     'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset:       120,          // distance to the element when triggering the animation (default is 0)
+                mobile:       false,       // trigger animations on mobile devices (default is true)
+                live:         true        // act on asynchronously loaded content (default is true)
+              }
+            );
+            wow.init();
+        </script>
 
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
-					},
-					messages: {
-						name: {
-							required: "come on, you have a name don't you?",
-							minlength: "your name must consist of at least 2 characters"
-						},
-						email: {
-							required: "no email, no message"
-						},
-						message: {
-							required: "um...yea, you have to write something to send this form.",
-							minlength: "thats all? really?"
-						}
-					},
-					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"process.php",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}
-				});
-			});
-		</script>
-    </body>
+    <!-- Swiper JS -->
+   <script src="swiper_js/swiper.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper('.swiper-container', {
+       pagination: '.swiper-pagination',
+       nextButton: '.swiper-button-next',
+       prevButton: '.swiper-button-prev',
+       slidesPerView: 1,
+       paginationClickable: true,
+       spaceBetween: 30,
+       loop: true,
+       autoplay:10000
+     });
+   </script>
+
+    <!-- Custom Functions -->
+    <script src="js/custom.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+        /* ========================================================================= */
+        /*  Contact Form
+        /* ========================================================================= */
+
+        $('#contact-form').validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                message: {
+                    required: true
+                }
+            },
+            messages: {
+                name: {
+                    required: "come on, you have a name don't you?",
+                    minlength: "your name must consist of at least 2 characters"
+                },
+                email: {
+                    required: "no email, no message"
+                },
+                message: {
+                    required: "um...yea, you have to write something to send this form.",
+                    minlength: "thats all? really?"
+                }
+            },
+            submitHandler: function(form) {
+                $(form).ajaxSubmit({
+                    type:"POST",
+                    data: $(form).serialize(),
+                    url:"process.php",
+                    success: function() {
+                        $('#contact-form :input').attr('disabled', 'disabled');
+                        $('#contact-form').fadeTo( "slow", 0.15, function() {
+                            $(this).find(':input').attr('disabled', 'disabled');
+                            $(this).find('label').css('cursor','default');
+                            $('#success').fadeIn();
+                        });
+                    },
+                    error: function() {
+                        $('#contact-form').fadeTo( "slow", 0.15, function() {
+                            $('#error').fadeIn();
+                        });
+                    }
+                });
+            }
+        });
+    });
+    </script>
+</body>
 </html>
